@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Node head = new Node(30);
+        head.setNextNode(new Node(50));
+        System.out.println((head.getNode()).getData());
     }
 }
