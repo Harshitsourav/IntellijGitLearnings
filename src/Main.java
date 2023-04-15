@@ -3,5 +3,6 @@ public class Main {
         Node head = new Node(30);
         head.setNextNode(new Node(50));
         System.out.println((head.getNode()).getData());
+        System.out.println("Added new to this file");
     }
 }
